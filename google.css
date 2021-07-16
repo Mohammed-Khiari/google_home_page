@@ -1,0 +1,35 @@
+body{
+margin: 0;
+font-family:Areal sans-serif;
+font-size:0.9em;
+}
+a{
+margin:5px;
+text-decoration: none;
+color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+display:flex;
+justify-content:space-between;    
+}
+.header-nav{
+display: flex;
+align-items:center;
+padding-left: 20px;
+margin-right: 10px;
+}
+ul>a,ul>img{
+padding:0 8px;    
+}
+.header-img{
+    width :30px;
+    height:30px;  
+}
+.header-img:hover{
+   box-shadow: 0 0 10px 0px gainsboro; 
+   border-radius: 20px; 
+   cursor: pointer;  
+}
